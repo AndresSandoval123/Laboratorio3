@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Laboratorio 3</title>
+  <link rel="stylesheet" href="./vista/styles/styles.css">
+</head>
+
+<body>
+
+  <div class="titulo">
+    <h1>Laboratorio 3</h1>
+  </div>
+
+  <section class="botones">
+    <div class="pag">
+      <span>Página</span>
+      <select  id="paginaSelect">
+        <option value="">Selecciona</option>
+        <option value="pag1.html">Iroman</option>
+        <option value="pag2.html">Hulk</option>
+      </select>
+    </div>
+
+    <div class="met">
+      <span>Método</span>
+      <select id="metodoSelect">
+        <option value="get">Get</option>
+        <option value="post">Post</option>
+      </select>
+    </div>
+
+    <div class="btnVer">
+      <button id="verPaginaBtn">Ver Página</button>
+    </div>
+
+  </section>
+  <section class="iframe" id="iframe">
+    <iframe id="iframeContent" src="/vista/public/pag1.html" frameborder="0">mira</iframe>
+  </section>
+
+  <script src="./vista/script/pag.js"></script>
+</body>
+
+</html>
